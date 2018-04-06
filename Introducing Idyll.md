@@ -16,7 +16,7 @@ Idyll follows these basic rules:
 - Line-break: `CR`, `LF`, `CRLF`
 
 
-##Object
+## Object
 
 An Object structure is represented as a pair of curly brackets(`{}`) surrounding zero or more Key-Value pairs. A Key is a String, and a Value could be one of Object, Array, String, Number, Boolean or Null.
 
