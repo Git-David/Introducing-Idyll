@@ -126,7 +126,7 @@ Unquoted notation disallowed using `true`, `false`, `null`, `inf`, or `nan` as K
 
 Raw notation avoided the need for escaping by providing custom delimiter.
 
-Raw notation begins with `'delimiter(` and ends with `)delimiter`, between them is a character sequence. All Unicode characters may be placed in the sequence, except line-breaks.
+Raw notation begins with `'delimiter(` and ends with `)delimiter'`, between them is a character sequence. All Unicode characters may be placed in the sequence, except line-breaks.
 
 `delimiter` is made of zero to sixteen repeated letters or digits. For example, `a`, `ddd` or `555` is valid `delimiter`, but `abc`, `27` or `@@` is not.
 
