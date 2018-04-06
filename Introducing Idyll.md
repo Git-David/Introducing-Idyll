@@ -1,6 +1,6 @@
 # Introducing Idyll
 
-Idyll is a JSON-like, lightweight data interchange format. It could used for data interchange, data storage, configuration, data description, etc. As a text-based and semi-structured format, Idyll is completely human readable and language independent. Its design goals were to be simple, easy to use, explicit and elegant.
+Idyll is a JSON-like, lightweight data interchange format. It could be used for data interchange, data storage, configuration, data description, etc. As a text-based and semi-structured format, Idyll is completely human readable and language independent. Its design goals were to be simple, easy to use, explicit and elegant.
 
 ## Basic rules
 
@@ -175,7 +175,7 @@ Example:
 
 A single line-break exists between two adjacent character sequences, namely, between $n$ character sequences there are $n - 1$ line-breaks.
 
-In the example above, there is no line-break at the ending of the String. If a line-break is needed at the ending of a String, according to the rule, just retain an empty line, for example:
+In the example above, there is no line-break at the end of the String. If a line-break is needed at the end of a String, according to the rule, just retain an empty line, for example:
 
 ```
 {
