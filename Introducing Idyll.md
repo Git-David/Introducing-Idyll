@@ -130,7 +130,7 @@ Raw notation begins with `'delimiter(` and ends with `)delimiter'`, between them
 
 `delimiter` is made of zero to sixteen repeated letters or digits. For example, `a`, `ddd` or `555` is valid `delimiter`, but `abc`, `27` or `@@` is not.
 
-As long as `)delimiter'` is not a subsequence of the character sequence, the String is well-formed. In the general case, if the character sequence does not contain `)'`, then `delimiter` could be empty.
+As long as `)delimiter'` is not a subsequence of the character sequence, the String is well-formed. In the general cases, if the character sequence does not contain `)'`, then `delimiter` could be empty.
 
 Examples:
 
